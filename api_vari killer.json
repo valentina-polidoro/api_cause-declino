@@ -23,7 +23,7 @@
     },
     {
       "name": "Ambientali",
-      "color": "#27ae60",
+      "color": "#FFF25E",
       "children": [
         {
           "name": "Pesticidi",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Gestione",
-      "color": "#2980b9",
+      "color": "#984F00",
       "children": [
         {
           "name": "Stress da Trasporto",
