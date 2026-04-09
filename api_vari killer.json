@@ -1,0 +1,61 @@
+
+{
+  "name": "Honey Bee Stressors",
+  "description": "Confronto delle cause di perdita delle colonie 2015 vs 2024",
+  "children": [
+    {
+      "name": "Biologici",
+      "color": "#E27900",
+      "children": [
+        {
+          "name": "Varroa Mites",
+          "v2015": 42.3,
+          "v2024": 55.2,
+          "info": "Principale acaro parassita e vettore di virus."
+        },
+        {
+          "name": "Malattie e Funghi",
+          "v2015": 12.1,
+          "v2024": 13.5,
+          "info": "Include Nosema, pesti e altri virus interni."
+        }
+      ]
+    },
+    {
+      "name": "Ambientali",
+      "color": "#27ae60",
+      "children": [
+        {
+          "name": "Pesticidi",
+          "v2015": 13.2,
+          "v2024": 11.8,
+          "info": "Esposizione a neonicotinoidi e tossine chimiche."
+        },
+        {
+          "name": "Fame e Clima",
+          "v2015": 9.5,
+          "v2024": 15.4,
+          "info": "Mancanza di foraggiamento dovuta a siccità o monoculture."
+        }
+      ]
+    },
+    {
+      "name": "Gestione",
+      "color": "#2980b9",
+      "children": [
+        {
+          "name": "Stress da Trasporto",
+          "v2015": 11.8,
+          "v2024": 7.2,
+          "info": "Spostamenti forzati per l'impollinazione industriale."
+        },
+        {
+          "name": "Debolezza Genetica",
+          "v2015": 11.1,
+          "v2024": 6.9,
+          "info": "Problemi legati alla qualità della regina e consanguineità."
+        }
+      ]
+    }
+  ]
+}
