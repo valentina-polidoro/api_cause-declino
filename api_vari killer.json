@@ -1,60 +1,35 @@
-
 {
   "name": "Honey Bee Stressors",
-  "description": "Confronto delle cause di perdita delle colonie 2015 vs 2024",
   "children": [
     {
       "name": "Biologici",
       "color": "#E27900",
       "children": [
-        {
-          "name": "Varroa Mites",
-          "v2015": 42.3,
-          "v2024": 55.2,
-          "info": "Principale acaro parassita e vettore di virus."
-        },
-        {
-          "name": "Malattie e Funghi",
-          "v2015": 12.1,
-          "v2024": 13.5,
-          "info": "Include Nosema, pesti e altri virus interni."
-        }
+        { "name": "Varroa Mites", "v2015": 42.3, "v2024": 55.2, "info": "Parassita distruttivo e vettore virale." },
+        { "name": "Malattie", "v2015": 12.1, "v2024": 13.5, "info": "Virus, funghi (Nosema) e pesti." }
       ]
     },
     {
       "name": "Ambientali",
       "color": "#FFF25E",
       "children": [
-        {
-          "name": "Pesticidi",
-          "v2015": 13.2,
-          "v2024": 11.8,
-          "info": "Esposizione a neonicotinoidi e tossine chimiche."
-        },
-        {
-          "name": "Fame e Clima",
-          "v2015": 9.5,
-          "v2024": 15.4,
-          "info": "Mancanza di foraggiamento dovuta a siccità o monoculture."
-        }
+        { "name": "Pesticidi", "v2015": 13.2, "v2024": 11.8, "info": "Esposizione a chimica agricola tossica." },
+        { "name": "Clima Estremo", "v2015": 5.4, "v2024": 9.2, "info": "Shock termici, gelate o ondate di calore." }
+      ]
+    },
+    {
+      "name": "Nutrizionali",
+      "color": "#984F00",
+      "children": [
+        { "name": "Fame", "v2015": 4.1, "v2024": 6.2, "info": "Mancanza di nettare/polline (monoculture)." }
       ]
     },
     {
       "name": "Gestione",
-      "color": "#984F00",
+      "color": "#FFD000",
       "children": [
-        {
-          "name": "Stress da Trasporto",
-          "v2015": 11.8,
-          "v2024": 7.2,
-          "info": "Spostamenti forzati per l'impollinazione industriale."
-        },
-        {
-          "name": "Debolezza Genetica",
-          "v2015": 11.1,
-          "v2024": 6.9,
-          "info": "Problemi legati alla qualità della regina e consanguineità."
-        }
+        { "name": "Trasporto", "v2015": 11.8, "v2024": 7.2, "info": "Stress da apicoltura nomade industriale." },
+        { "name": "Genetica", "v2015": 11.1, "v2024": 6.9, "info": "Problemi di fertilità della regina." }
       ]
     }
   ]
