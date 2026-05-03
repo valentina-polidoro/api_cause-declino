@@ -21,7 +21,7 @@
     },
     {
       "name": "Ambientali",
-      "color": "#CB8A23",
+      "color": "#CEAD1B",
       "children": [
         { 
           "name": "Pesticidi", 
@@ -30,7 +30,7 @@
           "info": "Le sostanze chimiche sistemiche, come i neonicotinoidi, agiscono sul sistema nervoso: le api subiscono disorientamento, perdono la capacità di tornare al nido e manifestano tremori che impediscono il foraggiamento" 
         },
         { 
-          "name": "Clima Estremo", 
+          "name": "Clima", 
           "v2015": 5.4, 
           "v2024": 9.2, 
           "info": "Le gelate tardive uccidono le nidiate precoci, mentre le ondate di calore estremo sciolgono la cera e costringono le api a smettere di cercare cibo per ventilare l'alveare nel tentativo disperato di raffreddarlo" 
